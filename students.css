@@ -1,0 +1,143 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: #51C1E9;
+}
+
+h5{
+	/* All Star Code is perfect for anyone, even if you don’t have a desire to study programming specifically or are unsure. It helps its students in teamwork, public speaking, and developing startups. */
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+}
+
+p{
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+a{
+	color: #3B3D42; 
+}
+
+a:hover{
+	color: #51C1E9; 
+}
+
+iframe{
+	width:80vw;
+	height: 500px;
+	margin-left: 9vw;
+	margin-right: 9vw;
+}
+
+.center {
+    margin: auto;
+	max-width: 40%;
+}
+
+.social {
+	text-align: center;
+}
+
+.story{
+	margin-top: 50px;
+	padding-top: 25px;
+	width: 100vw;
+	background-color: #51C1E9;
+	color: #ffffff;
+	/* visibility: hidden; */
+	display: none;
+}
+
+.close{
+	text-align: center;
+	cursor:pointer;
+}
+
+.buff{
+	height: 75px;
+	background-color: #ffffff;
+}
+
+.read{
+	color: #51C1E9;
+	cursor:pointer;
+}
+
+.thumb{
+	text-align: center;
+}
+
+.space{
+	margin-top: 50px;
+}
+
+.clicktoread{
+	white-space: normal;
+}
+
+.storylink:hover{
+	color: #000000; 
+}
+
+.question{
+	cursor:pointer;	
+}
+
+.answer{
+	color: #51C1E9;
+}
+
+.ans{
+	display: none;
+}
+
+.bar{
+	height: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #51C1E9;
+}
+
+.pullquote{
+	background-image: url('Asterisk.png');
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.jumbotron{
+	margin-top: 50px;
+	background-image: url('angelo-jumbotron.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding-bottom: 56.25%;
+	/*parallax?*/
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.example2 .navbar-brand>img {
+  padding: 7px 15px;
+}
