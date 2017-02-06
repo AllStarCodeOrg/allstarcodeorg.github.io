@@ -14,7 +14,6 @@ h2{
 }
 
 h5{
-	/* All Star Code is perfect for anyone, even if you don’t have a desire to study programming specifically or are unsure. It helps its students in teamwork, public speaking, and developing startups. */
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.5em;
 }
@@ -25,7 +24,8 @@ p{
 }
 
 a{
-	color: #3B3D42; 
+	/* 3B3D42 */
+	color: #51C1E9; 
 }
 
 a:hover{
@@ -86,7 +86,11 @@ iframe{
 }
 
 .storylink:hover{
-	color: #000000; 
+	color: #3B3D42; 
+}
+
+.storylink{
+	color: #3B3D42; 
 }
 
 .question{
