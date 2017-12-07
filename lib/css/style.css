@@ -1,0 +1,47 @@
+.masterDiv{
+    margin-top: 50px;
+}
+
+
+
+/* =================================================== */
+/* ========== TESTIMONIALS   ===================== */
+/* =================================================== */
+.testimonials {
+    background-color: orange;
+  }
+  .testimonials .quote-icon img {
+    height: 168px;
+    width: 168px;
+    margin-left: -12px;
+  }
+  .testimonials .lead {
+    color: white;
+    padding-top: 24px;
+  }
+  .testimonials cite {
+    color: #ecf0f1;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .testimonials cite a {
+    color: #ecf0f1;
+    border-bottom: dotted 1px #ecf0f1;
+  }
+  
+  .testimonials {
+      text-align: center;
+    }
+    .testimonials .quote-icon {
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+    }
+    .testimonials img {
+      margin-left: auto;
+    }
+.navbar-brand>img {
+    height: 100%;
+    /* padding: 15px;
+    width: auto; */
+  }

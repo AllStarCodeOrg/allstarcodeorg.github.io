@@ -11,7 +11,7 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 	<!-- my CSS -->
-    <link rel="stylesheet" href="students.css">
+    <link rel="stylesheet" href="lib/css/students.css">
 	<link href="https://fonts.googleapis.com/css?family=Oswald|Poppins:500,700" rel="stylesheet">
 
 </head>
@@ -28,7 +28,7 @@
 			  <span class="icon-bar"></span>
 			  <span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.html"><img src="logoHorz.png" alt="ALL STAR CODE">
+			<a class="navbar-brand" href="index.html"><img src="assets/logoHorz.png" alt="ALL STAR CODE">
 			</a>
 		  </div>
 		  <div id="navbar2" class="navbar-collapse collapse">
@@ -55,37 +55,37 @@
         <div class="row">
 
             <div class="col-lg-4 col-md-4 col-xs-12 thumb">
-                <img class="img-responsive pic" src="nateplain.png" alt="" style="margin: auto;">
+                <img class="img-responsive pic" src="assets/nateplain.png" alt="" style="margin: auto;">
 				<h3>Nate Antoine</h3>
 				<h4>2016 All Star</h4>
 				<a href="#"><h4 class="read" onclick="show('nate')">Read Nate's Story</h4></a>
             </div>
 			<div class="col-lg-4 col-md-4 col-xs-12 thumb">
-                <img class="img-responsive pic" src="devonplain.png" alt="" style="margin: auto;">
+                <img class="img-responsive pic" src="assets/devonplain.png" alt="" style="margin: auto;">
 				<h3>Devon Howell</h3>
 				<h4>2014 All Star</h4>
 				<a href="#"><h4 class="read" onclick="show('devon')">Read Devon's Story</h4></a>
             </div>
 			<div class="col-lg-4 col-md-4 col-xs-12 thumb">
-                <img class="img-responsive pic" src="isiahplain.png" alt="" style="margin: auto;">
+                <img class="img-responsive pic" src="assets/isiahplain.png" alt="" style="margin: auto;">
 				<h3>Isiah Rosa</h3>
 				<h4>2015 All Star</h4>
 				<a href="#"><h4 class="read" onclick="show('isiah')">Read Isiah's Story</h4></a>
             </div>
             <div class="col-lg-4 col-md-4 col-xs-12 thumb">
-                <img class="img-responsive pic" src="shuhplain.png" alt="" style="margin: auto;">
+                <img class="img-responsive pic" src="assets/shuhplain.png" alt="" style="margin: auto;">
 				<h3>Shuh Islam</h3>
 				<h4>2016 All Star</h4>
 				<a href="#"><h4 class="read" onclick="show('shuh')">Read Shuh's Story</h4></a>
             </div>
 			<div class="col-lg-4 col-md-4 col-xs-12 thumb">
-                <img class="img-responsive pic" src="jaredplain.png" alt="" style="margin: auto;">
+                <img class="img-responsive pic" src="assets/jaredplain.png" alt="" style="margin: auto;">
 				<h3>Jared Foxhall</h3>
 				<h4>2016 All Star</h4>
 				<a href="#"><h4 class="read" onclick="show('jared')">Read Jared's Story</h4></a>
             </div>
 			<div class="col-lg-4 col-md-4 col-xs-12 thumb">
-                <img class="img-responsive pic" src="djassiplain.png" alt="" style="margin: auto;">
+                <img class="img-responsive pic" src="assets/djassiplain.png" alt="" style="margin: auto;">
 				<h3>Djassi Julien</h3>
 				<h4>2014 All Star</h4>
 				<a href="#"><h4 class="read" onclick="show('djassi')">Read Djassi's Story</h4></a>
@@ -141,7 +141,7 @@
 			var allstar = students[name];
 			console.log(allstar);
 			document.getElementById("story").innerHTML = 
-			"<div class='container'> <div class='row'><div class='col-lg-4 col-md-4 col-xs-12 thumb'><img class='img-responsive pic' src='"+name+"plain.png' alt=''><h3>"+allstar.name+"</h3><h4>"+allstar.cohort+"</h4></div><div class='col-lg-8 col-md-8 col-xs-12'>"+allstar.text+"</div></div><p class='close' onclick='hide()'>Hide this story</p></div>";
+			"<div class='container'> <div class='row'><div class='col-lg-4 col-md-4 col-xs-12 thumb'><img class='img-responsive pic' src='"+name+"assets/plain.png' alt=''><h3>"+allstar.name+"</h3><h4>"+allstar.cohort+"</h4></div><div class='col-lg-8 col-md-8 col-xs-12'>"+allstar.text+"</div></div><p class='close' onclick='hide()'>Hide this story</p></div>";
 			$("#story").slideDown("fast");
 		}
 				
