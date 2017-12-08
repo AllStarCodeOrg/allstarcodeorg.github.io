@@ -2,8 +2,29 @@
     margin-top: 50px;
 }
 
+.social {
+	text-align: center;
+}
 
+.contact h2{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: #51C1E9;
+}
 
+a {
+  color: #51C1E9;
+}
+
+hr{
+  display: flex;
+  width:50%;
+  flex-direction: center;
+  height: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #51C1E9;
+}
 /* =================================================== */
 /* ========== TESTIMONIALS   ===================== */
 /* =================================================== */
