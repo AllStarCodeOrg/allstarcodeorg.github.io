@@ -2,17 +2,24 @@
     margin-top: 50px;
 }
 
-.top{
-  background-image: url("../../assets/b1.jpg");
-  height: 100vh;
+.parallax{
   background-attachment: fixed;
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* centering with flex */
+.top,.about, .projects, .apply{
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+
+.top{
+  background-image: url("../../assets/b1.jpg");
+  height: 100vh;
 }
 
 #pulse{
@@ -69,10 +76,6 @@
 }
 
 .about{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
   background-color: pink;  
 }
 
@@ -84,18 +87,16 @@
   align-items: center;
   justify-content: space-around;
   text-align: center;
-
-  background-image: url("../../assets/b2.jpg");
   height: 35vh;
-  background-attachment: fixed;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../../assets/b2.jpg");
 }
 
+
 .stat{
+  background-color: rgba(174, 177, 189, 0.618);
   border: solid red 2px;
   height: 100px;
+  padding: 1em;
 }
 
 .reqs, .learn{
@@ -133,6 +134,15 @@
 
 .social {
 	text-align: center;
+}
+
+.projects{
+  background-image: url("../../assets/b4.jpg");
+  height: 45vh;
+}
+
+.apply{
+  background-color: pink;
 }
 
 .contact h2{
