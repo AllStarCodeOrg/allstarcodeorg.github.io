@@ -8,9 +8,14 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>All Star Code's 2017 Summer Intensive</title>
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- animate -->
+    <!-- <link rel="stylesheet" href="lib/css/animate.css"> -->
+
     <!-- my CSS -->
     <link rel="stylesheet" href="lib/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Oswald|Poppins:500,700" rel="stylesheet">    
@@ -28,17 +33,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">
+                <!-- <a class="navbar-brand" href="#"> -->
                     <img src="assets/logoHorz.png" alt="ALL STAR CODE">
-                </a>
+                <!-- </a> -->
             </div>
             <div id="navbar2" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
+                        <a href="http://www.allstarcode.org/donate/" data-toggle="collapse" data-target=".navbar-collapse" id="donate" class="buttonize">Donate</a>
+                    </li>
+                    <li>
                         <a href="#si" data-toggle="collapse" data-target=".navbar-collapse">Summer Intensive</a>
                     </li>
                     <li>
-                        <a href="#apply" data-toggle="collapse" data-target=".navbar-collapse">Apply</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSegwnnU8DN66Fhph-kjqNLTivfJFUWpUbBm4M_XLHGJnCwqJQ/viewform?usp=sf_link" target="_blank" data-toggle="collapse" data-target=".navbar-collapse">Apply</a>
                     </li>
                     <li>
                         <a href="#eligible" data-toggle="collapse" data-target=".navbar-collapse">Eligibility</a>
@@ -65,35 +73,38 @@
             <!-- has apply button -->
             <h1>ALL STAR CODE</h1>
             <h2>SUMMER INTENSIVE</h2>
-            <a href="#" id='pulse'>APPLY</a>
-            <a href="#" id="hanging_apply">APPLY</a>
+            <div class="star">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSegwnnU8DN66Fhph-kjqNLTivfJFUWpUbBm4M_XLHGJnCwqJQ/viewform?usp=sf_link" target="_blank" id='pulse'>APPLY</a>
+            </div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSegwnnU8DN66Fhph-kjqNLTivfJFUWpUbBm4M_XLHGJnCwqJQ/viewform?usp=sf_link" target="_blank" id="hanging_apply" class="buttonize">APPLY</a>
         </div>
 
+
+        <div class="breaker"></div>
         <!-- blurb about what the SI is -->
         <div class="about">
             <h2>THE ALL STAR CODE SUMMER INTENSIVE</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestias vitae at ipsum, laudantium cum eum error
-                numquam et eveniet ad, odio quasi mollitia atque voluptate architecto, delectus non assumenda vel sapiente
-                dolorum ea consequatur laborum. Et odio rerum nostrum tenetur nihil doloribus voluptate at nesciunt accusantium.
-                Quibusdam, tempore perspiciatis?</p>
+            <p>All Star Code works to close the racial wealth gap by developing a new generation of entrepreneurs who have the tools they need to succeed in tech. Our flagship program, the Summer Intensive (SI), is a FREE six week program designed to give high school boys the access and exposure they need to become successful tech entrepreneurs. Through real-world experiences at top tech companies, and hands-on, project-based learning, All Stars finish the program with both coding skills and an entrepreneurial mindset.</p>
         </div>
 
+        <div class="breaker"></div>
         <!-- parallax of 3 main stats -->
         <div class="parallax stats">
             <div class="stat">
                 <h2>Students Reached</h2>
-                <p>300</p>
+                <p class="untouched">286</p>
             </div>
             <div class="stat">
                 <h2>Cities</h2>
-                <p>2</p>
+                <p class="untouched">2</p>
             </div>
             <div class="stat">
                 <h2>Partners</h2>
-                <p>50</p>
+                <p class="untouched">47</p>
             </div>
         </div>
 
+        <div class="breaker"></div>
         <!-- ELIGIBILITY REQUIREMENTS -->
         <div class="reqs">
             <h2>ELIGIBILITY REQUIREMENTS</h2>
@@ -106,6 +117,7 @@
             </ul>
         </div>
 
+        <div class="breaker"></div>
         <!-- carousel of student quotes -->
         <div class="carousel">
             <section id="section-testimonials" class="testimonials">
@@ -163,33 +175,36 @@
         </div>
 
 
+        <div class="breaker"></div>
         <!-- what you'll learn -->
         <div class="learn">
-            <h2>WHAT YOU'LL LEARN</h2>
-            <div class='skills'>
-                <p>lorem</p>
-                <p>lorem</p>
-                <p>lorem</p>
-                <p>lorem</p>
-                <p>lorem</p>
-                <p>lorem</p>
-                <p>lorem</p>
-                <p>lorem</p>
-                <p>lorem</p>
+            <h2>WHAT YOU'LL GET</h2>
+            <div class='skills wow bounceUp'>
+                <p>Computer Science</p>
+                <p>Mobile Web Development</p>
+                <p>Entrepreneurship</p>
+                <p>Networking Skills</p>
+                <p>Mentorship</p>
+                <p>Intersectionality</p>
+                <p>Growth Mindset</p>
+                <p>FREE Food</p>
+                <p>FREE Laptop</p>
             </div>
         </div>
 
+        <div class="breaker"></div>
         <!-- student projects -->
         <div class="parallax projects">
             <h2>STUDENT PROJECTS</h2>
             <a href="#">Link to projects</a>
         </div>
 
+        <div class="breaker"></div>
         <!-- apply -->
         <div class="apply">
             <h2>APPLY</h2>
             <p>Applications are now <span>OPEN</span> for the 2018 Summer Intensive.</p>
-            <a href="#">Apply now!</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSegwnnU8DN66Fhph-kjqNLTivfJFUWpUbBm4M_XLHGJnCwqJQ/viewform?usp=sf_link" target="_blank">Apply now!</a>
         </div>
 
         <!-- contact -->
@@ -207,8 +222,20 @@
     <!-- jquery -->
     <script src="lib/js/jquery-2.2.4.min.js"></script>
     <!-- bootstrap -->
-    <script src="lib/js/bootstrap.min.js"></script>
+    <script src="lib/js/bootstrap.js"></script>
 
+    <!-- wow -->
+    <!-- <script src="lib/js/wow.min.js"></script>
+    <script>
+    new WOW({
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       false,       // default
+                      live:         true        // default
+                    }).init();
+    </script>
+     -->
     <!-- custom -->
     <script src="lib/js/main.js"></script>
 </body>
