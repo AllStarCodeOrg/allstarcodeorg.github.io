@@ -16,6 +16,12 @@
     <!-- animate -->
     <!-- <link rel="stylesheet" href="lib/css/animate.css"> -->
 
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="lib/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico">
     <!-- my CSS -->
     <link rel="stylesheet" href="lib/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald|Poppins:500,700" rel="stylesheet">
@@ -34,33 +40,63 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- <a class="navbar-brand" href="#"> -->
-                <img src="assets/logoHorz.png" alt="ALL STAR CODE">
-                <!-- </a> -->
+                <a href="#">
+                    <img src="assets/logoHorz.png" alt="ALL STAR CODE">
+                </a>
             </div>
             <div id="navbar2" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="http://www.allstarcode.org/donate/" data-toggle="collapse" data-target=".navbar-collapse" id="donate" class="buttonize">Donate</a>
-                    </li>
-                    <li>
-                        <a href="#about" data-toggle="collapse" data-target=".navbar-collapse">Summer Intensive</a>
+                        <a href="http://www.allstarcode.org/donate/" target="_blank" data-toggle="collapse" data-target=".navbar-collapse" id="donate" class="buttonize">
+                            Donate
+                        </a>
                     </li>
                     <li>
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSegwnnU8DN66Fhph-kjqNLTivfJFUWpUbBm4M_XLHGJnCwqJQ/viewform?usp=sf_link"
-                            target="_blank" data-toggle="collapse" data-target=".navbar-collapse">Apply</a>
+                            target="_blank" data-toggle="collapse" data-target=".navbar-collapse">
+                            Apply
+                        </a>
                     </li>
                     <li>
-                        <a href="#reqs" data-toggle="collapse" data-target=".navbar-collapse">Eligibility</a>
+                        <a href="#about" data-toggle="collapse" data-target=".navbar-collapse">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#reqs" data-toggle="collapse" data-target=".navbar-collapse">
+                            Eligibility
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#quotes" data-toggle="collapse" data-target=".navbar-collapse">
+                            Testimonials
+                        </a>
                     </li>
                     <!-- <li><a href="./allstars.html">All Star Stories</a></li> -->
                     <li>
-                        <a href="#faq" data-toggle="collapse" data-target=".navbar-collapse">FAQ</a>
+                        <a href="#learn" data-toggle="collapse" data-target=".navbar-collapse">
+                            Benefits
+                        </a>
                     </li>
                     <li>
-                        <a href="#contact" data-toggle="collapse" data-target=".navbar-collapse">Contact</a>
+                        <a href="#projects" data-toggle="collapse" data-target=".navbar-collapse">
+                            Projects
+                        </a>
                     </li>
                     <li>
-                        <a href="http://www.allstarcode.org" data-toggle="collapse" data-target=".navbar-collapse">Main Site</a>
+                        <a href="#faq" data-toggle="collapse" data-target=".navbar-collapse">
+                            FAQ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" data-toggle="collapse" data-target=".navbar-collapse">
+                            Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.allstarcode.org" target="_blank" data-toggle="collapse" data-target=".navbar-collapse">
+                            Main Site
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -76,7 +112,10 @@
             <h2>SUMMER INTENSIVE</h2>
             <div class="star">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSegwnnU8DN66Fhph-kjqNLTivfJFUWpUbBm4M_XLHGJnCwqJQ/viewform?usp=sf_link"
-                    target="_blank" id='pulse'>APPLY</a>
+                target="_blank">
+                    <img src="assets/Asterisk.png" alt="">
+                </a>
+                <h4  id='pulse'>APPLY</h4>
             </div>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSegwnnU8DN66Fhph-kjqNLTivfJFUWpUbBm4M_XLHGJnCwqJQ/viewform?usp=sf_link"
                 target="_blank" id="hanging_apply" class="buttonize">APPLY</a>
@@ -129,20 +168,21 @@
 
         <div class="breaker"></div>
         <!-- quotes w/parallax -->
+        <div id="quotes"></div>
         <div class="parallax quotes">
             <h2>TESTIMONIALS</h2>
-            <div id="myCarousel" class="carousel slide"> <!-- slider -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000"> <!-- slider -->
 				<div class="carousel-inner">
 					<div class="active item"> <!-- item 1 -->
 						<div id="tb-testimonial" class="testimonial testimonial-success-filled">
                             <div class="testimonial-section">
-                                Denim you probably haven't heard of. Lorem ipsum dolor met consectetur adipisicing sit amet, consectetur adipisicing elit, of them jean shorts sed magna aliqua. Lorem ipsum dolor met.
+                                I came in knowing absolutely nothing. Like nothing at all. I came out being more confident and I cannot believe what I achieved yesterday at demo day. I am proud of myself.
                             </div>
                             <div class="testimonial-desc">
-                                <img src="https://placeholdit.imgix.net/~text?txtsize=9&txt=100%C3%97100&w=100&h=100" alt="" />
+                                <img src="assets/Denzel.png" alt="" />
                                 <div class="testimonial-writer">
-                                    <div class="testimonial-writer-name">Zahed Kamal</div>
-                                    <div class="testimonial-writer-designation">Front End Developer</div>
+                                    <div class="testimonial-writer-name">Denzel Stephen</div>
+                                    <div class="testimonial-writer-designation">ASC4 Student - Cisco Cohort - NYC</div>
                                 </div>
                             </div>
                         </div> 
@@ -151,13 +191,13 @@
 					<div class="item"> <!-- item 2 -->
 						<div id="tb-testimonial" class="testimonial testimonial-success-filled">
                             <div class="testimonial-section">
-                                Denim you probably haven't heard of. Lorem ipsum dolor met consectetur adipisicing sit amet, consectetur adipisicing elit, of them jean shorts sed magna aliqua. Lorem ipsum dolor met.
+                                This summer was the most significant one so far, it has opened me up to new job and occupational opportunities that I would have never considered. This summer may have helped me decide my college major as well!
                             </div>
                             <div class="testimonial-desc">
-                                <img src="https://placeholdit.imgix.net/~text?txtsize=9&txt=100%C3%97100&w=100&h=100" alt="" />
+                                <img src="assets/Marcus.png" alt="" />
                                 <div class="testimonial-writer">
-                                    <div class="testimonial-writer-name">Zahed Kamal</div>
-                                    <div class="testimonial-writer-designation">Front End Developer</div>
+                                    <div class="testimonial-writer-name">Marcus Stevens</div>
+                                    <div class="testimonial-writer-designation">ASC4 Student - Chatham Cohort - PGH</div>
                                 </div>
                             </div>
                         </div> 
@@ -166,13 +206,13 @@
 					<div class="item"> <!-- item 3 -->
 						<div id="tb-testimonial" class="testimonial testimonial-success-filled">
                             <div class="testimonial-section">
-                                Denim you probably haven't heard of. Lorem ipsum dolor met consectetur adipisicing sit amet, consectetur adipisicing elit, of them jean shorts sed magna aliqua. Lorem ipsum dolor met.
+                                I believe that the Summer Intensive truly helped to learn basic HTML, CSS, and JavaScript. It has prepared me to take on an Honors JavaScript class at my school. I look forward to pursuing Computer Science.
                             </div>
                             <div class="testimonial-desc">
-                                <img src="https://placeholdit.imgix.net/~text?txtsize=9&txt=100%C3%97100&w=100&h=100" alt="" />
+                                <img src="assets/Elijah.png" alt="" />
                                 <div class="testimonial-writer">
-                                    <div class="testimonial-writer-name">Zahed Kamal</div>
-                                    <div class="testimonial-writer-designation">Front End Developer</div>
+                                    <div class="testimonial-writer-name">Elijah Atwell</div>
+                                    <div class="testimonial-writer-designation">ASC4 Student - Yahoo Cohort - NYC</div>
                                 </div>
                             </div>
                         </div> 
@@ -211,7 +251,7 @@
             <div class="projects_container">
                 <header>
                     <h2>STUDENT PROJECTS</h2>
-                    <a href="#" class="buttonize">2017 student projects</a>
+                    <a href="https://allstarcodeorg.github.io/asc4_demo_projects/" target="_blank" class="buttonize">2017 student projects</a>
                 </header>
                 <div class="all_projects">
                     <div class="project">
@@ -260,18 +300,18 @@
         <!-- faq -->
         <div id="faq"></div>
         <div class="faq">
-            <h2 id="faq">FAQ</h2>
+            <h2>FAQ</h2>
             <div class="q_section">
-                <p class="question" id="q1">
+                <p class="question">
                     <b>Q:</b> When is the Summer Intensive?</p>
-                <p class="ans" id="a1">
-                    <b class="answer">A:</b> The 2017 Summer Intensive will take place weekdays from July 10th through August 18th, 9 am to
-                    4 pm, with optional office hours from 4 pm to 5 pm on select days.</p>
+                <p class="ans">
+                    <b class="answer">A:</b> The 2018 Summer Intensive will take place weekdays from July 9th through August 17th, 9 AM to
+                    4 PM, with optional office hours from 4 PM to 5 PM.</p>
             </div>
             <div class="q_section">
-                <p class="question" id="q2">
+                <p class="question">
                     <b>Q</b>: Where does the Summer Intensive take place?</p>
-                <p class="ans" id="a2">
+                <p class="ans">
                     <b class="answer">A:</b> All Stars are placed in a cohort of 20 boys at a real tech company in Manhattan. This year we
                     are happy to announce that All Star Code will also serve the students of Pittsburgh, and will partner
                     with a tech company there to host our first cohort outside of NYC. Our past host sites include Microsoft,
@@ -279,61 +319,59 @@
                     companies, guest speakers, and fun team-building activities with other cohorts of All Stars.</p>
             </div>
             <div class="q_section">
-                <p class="question" id="q3">
+                <p class="question">
                     <b>Q:</b> Is it really free?</p>
-                <p class="ans" id="a3">
-                    <b class="answer">A:</b> Yes. It’s totally free, including transportation and meals during the program. Some students will
-                    even qualify for a free Metrocard (or ConnectCard for Pittsburgh participants) for travel to and from
+                <p class="ans">
+                    <b class="answer">A:</b> Yes. It’s totally free, including transportation and meals during the program. Students will
+                    be given a free Metrocard (New York City), PATH card (New Jersery), or ConnectCard (Pittsburgh) for travel to and from
                     the program! Details for this program will be shared after acceptance.</p>
             </div>
             <div class="q_section">
-                <p class="question" id="q4">
+                <p class="question">
                     <b>Q:</b> Is there a GPA requirement?</p>
-                <p class="ans" id="a4">
-                    <b class="answer">A:</b> No. Our All Stars shine in all sorts of ways, and grades are just one way to shine. Overall our
-                    All Stars have a B average, with a range from C to A+.</p>
+                <p class="ans">
+                    <b class="answer">A:</b> No. Our All Stars shine in all sorts of ways, and grades are just one way to shine. GPA is NOT used in our selection process. We do collect GPA data for our statistics.</p>
             </div>
             <div class="q_section">
-                <p class="question" id="q5">
+                <p class="question">
                     <b>Q:</b> What programming languages are taught?</p>
-                <p class="ans" id="a5">
+                <p class="ans">
                     <b class="answer">A:</b> JavaScript, HTML, and CSS. Students may also learn addtional languages for their final projects.</p>
             </div>
             <div class="q_section">
-                <p class="question" id="q6">
+                <p class="question" 
                     <b>Q:</b> I already know how to code. Am I eligible?</p>
-                <p class="ans" id="a6">
+                <p class="ans">
                     <b class="answer">A:</b> Definitely. You will probably love the Summer Intensive even more if you have this kind of head
-                    start. You can talk to our Student Services Coordinator,
-                    <a href='mailto:cyril@allstarcode.org'>Cyril Kuhns</a>, if you have questions about specific skills.</p>
+                    start. Please send inquiries to <a href='mailto:admissions@allstarcode.org'>ASC Admissions</a>, if you have questions about specific skills.</p>
             </div>
             <div class="q_section">
-                <p class="question" id="q7">
+                <p class="question">
                     <b>Q:</b> I'm not in high school yet, but I'm really interested in coding. Can I join the Summer Intensive?</p>
-                <p class="ans" id="a7">
+                <p class="ans">
                     <b class="answer">A:</b> Our program is specifically designed for rising juniors and seniors in high school. We’d love
                     to see you at non-SI events throughout the year and welcome your application when you are old enough!</p>
             </div>
             <div class="q_section">
-                <p class="question" id="q8">
+                <p class="question">
                     <b>Q:</b> When will I know if I was accepted into the program?</p>
-                <p class="ans" id="a8">
+                <p class="ans">
                     <b class="answer">A:</b> Once the application closes in March, there will be a selection period. All students who are accepted
                     into the program will receive notifications on the same date in late March/early April.</p>
             </div>
             <div class="q_section">
-                <p class="question" id="q9">
+                <p class="question">
                     <b>Q:</b> Will there be a waiting list?</p>
-                <p class="ans" id="a9">
+                <p class="ans">
                     <b class="answer">A:</b> Absolutely. Many students will qualify for the program but will not be selected in the first round.
                     They will receive notification of the opportunity to join a waiting list, and will be invited to join
                     as spots become available.</p>
             </div>
             <div class="q_section">
-                <p class="question" id="q10">
+                <p class="question">
                     <b>Q:</b> You say that preference is given to Black and Latino students. I'm not Black or Latino; does that
                     mean I'm not eligible?</p>
-                <p class="ans" id="a10">
+                <p class="ans">
                     <b class="answer">A:</b> Less than 1% of VC-backed startups has a Black or Latino founder on the team, and our programming
                     is designed to inspire All Stars to change that. We want to give priority to the students most directly
                     affected by this stark opportunity gap, who in this case, self-identify as Black and/or Latino. We have
@@ -343,27 +381,18 @@
         </div>
         <!-- contact -->
         <hr>
-        <div class="contact" id='contact'>
+        <div id="contact"></div>
+        <div class="contact">
             <h2>CONTACT</h2>
             <p class="social">
                 <a href="http://www.allstarcode.org">AllStarCode.org</a>
             </p>
-            <p class="social">
-                <a href="http://facebook.com/allstarcode">
-                    <img src="assets/fb.png">
-                </a>
-                <a href="https://twitter.com/allstarcode">
-                    <img src="assets/tw.png">
-                </a>
-                <a href="http://instagram.com/allstarcode">
-                    <img src="assets/ig.png">
-                </a>
-                <a href="https://www.youtube.com/watch?v=AnDmxENBlOE">
-                    <img src="assets/yt.png">
-                </a>
-                <a href="https://www.linkedin.com/company/5046827?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A5046827%2Cidx%3A2-1-2%2CtarId%3A1464816284640%2Ctas%3Aall%20star%20code">
-                    <img src="assets/in.png">
-                </a>
+            <p class="socials">
+                <a target="_blank" href="http://facebook.com/allstarcode"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://twitter.com/allstarcode"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+                <a target="_blank" href="http://instagram.com/allstarcode"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                <!-- <a target="_blank" href="https://www.youtube.com/watch?v=AnDmxENBlOE"><i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i></a> -->
+                <a target="_blank" href="https://www.linkedin.com/company/5046827?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A5046827%2Cidx%3A2-1-2%2CtarId%3A1464816284640%2Ctas%3Aall%20star%20code"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
             </p>
         </div>
     </div>

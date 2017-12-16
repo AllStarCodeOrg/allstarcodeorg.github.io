@@ -4,12 +4,10 @@ https://allstarcodeorg.github.io/
 Free frontend
 http://freefrontend.com/css-buttons/
 
-Change "what you'll learn" to "what you'll get"
-update testimonials (Devon)
-Parents
-    Testimonials from parents
-    update q&A
-    fix star to absolute + relative img
-    update contact icons
-    fix nav bar
-    fix main icon
+To Do List
+    *2 Testimonials from parents
+    *fix star to absolute + relative img
+    *fix main icon
+    *Do we allow juniors? [Machi]
+    *PATH cards covered? (make change in Jan w/Hunter's word)
+    *Cutting YouTube for now (until new video up)
