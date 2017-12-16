@@ -10,4 +10,5 @@ To Do List
     *fix main icon
     *Do we allow juniors? [Machi]
     *PATH cards covered? (make change in Jan w/Hunter's word)
+    *When projects website is completed, include link
     *Cutting YouTube for now (until new video up)
