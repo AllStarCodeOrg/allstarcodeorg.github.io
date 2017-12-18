@@ -152,13 +152,14 @@ a:focus{
   justify-content: space-around;
   text-align: center;
   height: 35vh;
+  min-height: 300px;
   background-image: url("../../assets/b10.jpg");
 }
 
 
 .stat{
   /* background-color: rgba(174, 177, 189, 0.618); */
-  /* border: solid red 2px; */
+  border: none;
   height: 100px;
   padding: 1em;
   display: flex;
