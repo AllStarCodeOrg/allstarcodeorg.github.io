@@ -3,18 +3,16 @@ body{
 	overflow-x: hidden;
 }
 
-h1{
+h1,h2,h5{
 	font-family: 'Oswald', sans-serif;
 }
 
 h2{
-	font-family: 'Oswald', sans-serif;
 	text-align: center;
 	color: #51C1E9;
 }
 
 h5{
-	font-family: 'Oswald', sans-serif;
 	font-size: 1.5em;
 }
 
