@@ -1,247 +1,437 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>All Star Code's 2017 Summer Intensive</title>
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-	<!-- my CSS -->
-    <link rel="stylesheet" href="lib/css/students.css">
-	<link href="https://fonts.googleapis.com/css?family=Oswald|Poppins:500,700" rel="stylesheet">
 
+    <!-- animate -->
+    <!-- <link rel="stylesheet" href="lib/css/animate.css"> -->
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="lib/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico">
+    <!-- my CSS -->
+    <link rel="stylesheet" href="lib/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Poppins:500,700" rel="stylesheet">
 </head>
-    
+
 <body>
-	
-	<div class="container example2">
-	  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-		<div class="container-fluid">
-		  <div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
-			  <span class="sr-only">Toggle navigation</span>
-			  <span class="icon-bar"></span>
-			  <span class="icon-bar"></span>
-			  <span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#"><img src="assets/logoHorz.png" alt="ALL STAR CODE">
-			</a>
-		  </div>
-		  <div id="navbar2" class="navbar-collapse collapse">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#si" data-toggle="collapse" data-target=".navbar-collapse">Summer Intensive</a></li>  
-				<li><a href="#apply" data-toggle="collapse" data-target=".navbar-collapse">Apply</a></li>     
-				<li><a href="#eligible" data-toggle="collapse" data-target=".navbar-collapse">Eligibility</a></li>  
-				<li><a href="./allstars.html">All Star Stories</a></li>
-				<li><a href="#faq" data-toggle="collapse" data-target=".navbar-collapse">FAQ</a></li>
-				<li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse">Contact</a></li> 
-				<li><a href="http://www.allstarcode.org" data-toggle="collapse" data-target=".navbar-collapse">Main Site</a></li>
-			</ul>
-		  </div>
-		  <!--/.nav-collapse -->
-		</div>
-		<!--/.container-fluid -->
-	  </nav>
-	</div>
-	
-	<div class="jumbotron">
-	  <div class="container">
-	  </div>
-	</div>
-	
-	<h2 id="si">THE ALL STAR CODE 2017 SUMMER INTENSIVE IN NYC & PITTSBURGH</h2>
-	<p>All Star Code prepares young Black and Latino men for tech careers by providing mentorship, industry exposure, and training in Computer Science. Our flagship program, the Summer Intensive (SI), is a <b>FREE</b> six week program designed to give high school boys the access and exposure they need to become successful tech entrepreneurs. Through real-world experiences at top tech companies, and hands-on, project-based learning, All Stars finish the program with both coding skills and an entrepreneurial mindset.</p>
-	
-	<div class="bar center"></div>
 
-	<h2 id="apply">APPLY NOW</h2>
-	<p>Applications are now closed for the 2017 Summer Intensive. <a href="https://docs.google.com/a/allstarcode.org/forms/d/e/1FAIpQLSccRpkLCu2UM7Txr3GkFpEBh1F6rg9O5agdgfFVAhhLuPVpwg/viewform">Sign up here</a> to be notified when the 2018 Summer Intensive applications open.</p>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <a class="navbar-brand" href="#"> -->
+                <a href="#">
+                    <img src="assets/logoHorz.png" alt="ALL STAR CODE">
+                </a>
+            </div>
+            <div id="navbar2" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="http://www.allstarcode.org/donate/" target="_blank" data-toggle="collapse" data-target=".navbar-collapse" id="donate" class="buttonize">
+                            Donate
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.surveymonkey.com/r/ASCapply"
+                            target="_blank" data-toggle="collapse" data-target=".navbar-collapse">
+                            Apply
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" data-toggle="collapse" data-target=".navbar-collapse">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#reqs" data-toggle="collapse" data-target=".navbar-collapse">
+                            Eligibility
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#quotes" data-toggle="collapse" data-target=".navbar-collapse">
+                            Testimonials
+                        </a>
+                    </li>
+                    <!-- <li><a href="./allstars.html">All Star Stories</a></li> -->
+                    <li>
+                        <a href="#learn" data-toggle="collapse" data-target=".navbar-collapse">
+                            Benefits
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects" data-toggle="collapse" data-target=".navbar-collapse">
+                            Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#faq" data-toggle="collapse" data-target=".navbar-collapse">
+                            FAQ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" data-toggle="collapse" data-target=".navbar-collapse">
+                            Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.allstarcode.org" target="_blank" data-toggle="collapse" data-target=".navbar-collapse">
+                            Main Site
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+        <!--/.container-fluid -->
+    </nav>
+    <div class="masterDiv">
+        <!-- Large parallax at top -->
+        <div class="parallax top">
+            <!-- has apply button -->
+            <h1>ALL STAR CODE</h1>
+            <h2>SUMMER INTENSIVE</h2>
+            <div class="star">
+                <a href="https://www.surveymonkey.com/r/ASCapply"
+                target="_blank">
+                    <img src="assets/Asterisk.png" alt="">
+                </a>
+                <h4  id='pulse'>APPLY</h4>
+            </div>
+            <a href="https://www.surveymonkey.com/r/ASCapply"
+                target="_blank" id="hanging_apply" class="buttonize">APPLY</a>
+            <div class="cities">
+                <p>Pittsburgh</p>
+                <p>New York City</p>
+                <p>New Jersey</p>
+            </div>
+        </div>
 
-	<div class="bar center"></div>
-	
-	<div class="container">
 
-		<div class="row">
-			<div class="col-lg-3 col-md-3 col-xs-0 thumb">
-			</div>
-			
-			<div class="col-lg-2 col-md-2 col-xs-12 thumb">
-				<img class="img-responsive pic" src="assets/nateplain.png" alt="" style="margin: auto;">
-				<h3>Nate Antoine</h3>
-				<h4>2016 All Star</h4>
-			</div>
-			
-			<div class="pullquote col-lg-4 col-md-4 col-xs-12 thumb">
-				<h5>“ALL STAR CODE IS PERFECT FOR ANYONE, EVEN IF YOU DON'T HAVE A DESIRE TO STUDY PROGRAMMING SPECIFICALLY OR ARE UNSURE. IT HELPS ITS STUDENTS IN TEAMWORK, PUBLIC SPEAKING, AND DEVELOPING STARTUPS.”</h5>
-				<a class="btn btn-default clicktoread" href="./allstars.html">Read more stories like Nate's</a>
-			</div>
-			
-			<div class="col-lg-3 col-md-3 col-xs-0 thumb">
-			</div>
-			
-		</div>
-	</div>
-	
-	<div class="bar center"></div>
-	
-	<h2 id="eligible">ELIGIBILITY REQUIREMENTS</h2>
-	
-	<div class="center">
-	<ul>
-		<li>Current High School student</li>
-		<li>Male</li>
-		<li>Able to commute to either NYC or Pittsburgh daily during Summer 2017</li>
-		<li>Preference given to Black & Latino applicants</li>
-		<li>No coding experience necessary</li>
-	</ul></div>
+        <div class="breaker"></div>
+        <!-- blurb about what the SI is -->
+        <div id="about"></div>
+        <div class="about">
+            <h2>THE ALL STAR CODE SUMMER INTENSIVE</h2>
+            <p>All Star Code works to close the racial wealth gap by developing a new generation of entrepreneurs who have the
+                tools they need to succeed in tech. Our flagship program, the Summer Intensive (SI), is a FREE six week program
+                designed to give high school boys the access and exposure they need to become successful tech entrepreneurs.
+                Through real-world experiences at top tech companies, and hands-on, project-based learning, All Stars finish
+                the program with both coding skills and an entrepreneurial mindset.</p>
+        </div>
 
-		
-	
-	
-	<div class="bar center"></div>
-	
-	<div class="container">
+        <div class="breaker"></div>
+        <!-- parallax of 3 main stats -->
+        <div id="stats"></div>
+        <div class="parallax stats">
+            <div class="stat">
+                <h2>Host Sites</h2>
+                <p class="untouched">8</p>
+            </div>
+            <div class="stat">
+                <h2>Guest Speakers</h2>
+                <p class="untouched">30</p>
+            </div>
+            <div class="stat">
+                <h2>Site Visits</h2>
+                <p class="untouched">22</p>
+            </div>
+        </div>
 
-		<div class="row">
-			<div class="col-lg-3 col-md-3 col-xs-0 thumb">
-			</div>
-			
-			<div class="col-lg-2 col-md-2 col-xs-12 thumb">
-				<img class="img-responsive pic" src="assets/djassiplain.png" alt="" style="margin: auto;">
-				<h3>Djassi Julien</h3>
-				<h4>2014 All Star</h4>
-			</div>
-			
-			<div class="pullquote col-lg-4 col-md-4 col-xs-12 thumb">
-				<h5>“I LEFT ALL STAR CODE MORE CONFIDENT AND OPTIMISTIC THAN I HAD EVER BEEN MY WHOLE LIFE. ALL STAR CODE GAVE ME THE CONFIDENCE TO LOOK INSIDE MYSELF AND REALIZE THAT I'M CAPABLE OF DOING WHATEVER I PUT MY MIND TO.”</h5>
-				<a class="btn btn-default clicktoread" href="./allstars.html">Read more stories like Djassi's</a>
-			</div>
-			
-			<div class="col-lg-3 col-md-3 col-xs-0 thumb">
-			</div>
-			
-		</div>
-	</div>
-	
-	<div class="bar center"></div>
+        <div class="breaker"></div>
+        <!-- ELIGIBILITY REQUIREMENTS -->
+        <div id="reqs"></div>
+        <div class="reqs">
+            <h2>ELIGIBILITY REQUIREMENTS</h2>
+            <ul>
+                <li>Current High School student</li>
+                <li>Male</li>
+                <li>Able to commute to either NYC or Pittsburgh daily during Summer 2018</li>
+                <li>Preference given to Black & Latino applicants</li>
+                <li>No coding experience necessary</li>
+            </ul>
+        </div>
 
-	
-	
-	<h2 id="faq">FAQ</h2>
-	<p class="question" id="q1"><b>Q:</b> When is the Summer Intensive?</p>
-	<p class="ans" id="a1"><b class="answer">A:</b> The 2017 Summer Intensive will take place weekdays from July 10th through August 18th, 9 am to 4 pm, with optional office hours from 4 pm to 5 pm on select days.</p>
-	
-	<p class="question" id="q2"><b>Q</b>: Where does the Summer Intensive take place?</p>
-	<p class="ans" id="a2"><b class="answer">A:</b> All Stars are placed in a cohort of 20 boys at a real tech company in Manhattan. This year we are happy to announce that All Star Code will also serve the students of Pittsburgh, and will partner with a tech company there to host our first cohort outside of NYC. Our past host sites include Microsoft, Google, and Goldman Sachs. You’ll also get to venture outside of the office, with site visits to other companies, guest speakers, and fun team-building activities with other cohorts of All Stars.</p>
+        <div class="breaker"></div>
+        <!-- quotes w/parallax -->
+        <div id="quotes"></div>
+        <div class="parallax quotes">
+            <h2>TESTIMONIALS</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000"> <!-- slider -->
+				<div class="carousel-inner">
+					<div class="active item"> <!-- item 1 -->
+						<div id="tb-testimonial" class="testimonial testimonial-success-filled">
+                            <div class="testimonial-section">
+                                I came in knowing absolutely nothing. Like nothing at all. I came out being more confident and I cannot believe what I achieved yesterday at demo day. I am proud of myself.
+                            </div>
+                            <div class="testimonial-desc">
+                                <img src="assets/Denzel.png" alt="" />
+                                <div class="testimonial-writer">
+                                    <div class="testimonial-writer-name">Denzel</div>
+                                    <div class="testimonial-writer-designation">ASC4 Student - Cisco Cohort - NYC</div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div> <!-- end item -->
+                    
+					<div class="item"> <!-- item 2 -->
+						<div id="tb-testimonial" class="testimonial testimonial-success-filled">
+                            <div class="testimonial-section">
+                                This summer was the most significant one so far, it has opened me up to new job and occupational opportunities that I would have never considered. This summer may have helped me decide my college major as well!
+                            </div>
+                            <div class="testimonial-desc">
+                                <img src="assets/Marcus.png" alt="" />
+                                <div class="testimonial-writer">
+                                    <div class="testimonial-writer-name">Marcus</div>
+                                    <div class="testimonial-writer-designation">ASC4 Student - Chatham Cohort - PGH</div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div> <!-- end item -->
+                    
+					<div class="item"> <!-- item 3 -->
+						<div id="tb-testimonial" class="testimonial testimonial-success-filled">
+                            <div class="testimonial-section">
+                                I believe that the Summer Intensive truly helped to learn basic HTML, CSS, and JavaScript. It has prepared me to take on an Honors JavaScript class at my school. I look forward to pursuing Computer Science.
+                            </div>
+                            <div class="testimonial-desc">
+                                <img src="assets/Elijah.png" alt="" />
+                                <div class="testimonial-writer">
+                                    <div class="testimonial-writer-name">Elijah</div>
+                                    <div class="testimonial-writer-designation">ASC4 Student - Yahoo Cohort - NYC</div>
+                                </div>
+                            </div>
+                        </div> 
+					</div> <!-- end item -->
+				</div> <!-- end carousel inner -->
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+				<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+			</div> <!-- end slider -->
+        </div>
+        
 
-	<p class="question" id="q3"><b>Q:</b> Is it really free?</p>
-	<p class="ans" id="a3"><b class="answer">A:</b> Yes. It’s totally free, including transportation and meals during the program. Some students will even qualify for a free Metrocard (or ConnectCard for Pittsburgh participants) for travel to and from the program! Details for this program will be shared after acceptance.</p>
+        <!-- carousel of student quotes -->
 
-	<p class="question" id="q4"><b>Q:</b> Is there a GPA requirement?</p>
-	<p class="ans" id="a4"><b class="answer">A:</b> No. Our All Stars shine in all sorts of ways, and grades are just one way to shine. Overall our All Stars have a B average, with a range from C to A+.</p>
+        <div class="breaker"></div>
+        <!-- what you'll learn -->
+        <div id="learn"></div>
+        <div class="learn">
+            <h2>WHAT YOU'LL GET</h2>
+            <div class='skills wow bounceUp'>
+                <p>Computer Science</p>
+                <p>Mobile Web Development</p>
+                <p>Entrepreneurship</p>
+                <p>Networking Skills</p>
+                <p>Mentorship</p>
+                <p>Intersectionality</p>
+                <p>Growth Mindset</p>
+                <p>FREE Food</p>
+                <p>FREE Laptop</p>
+            </div>
+            <hr>
+            <div class="l4l">
+                <h2>INTERESTED IN MAKING MONEY WHILE YOU LEARN?</h2>
+                <p>All Star Code has partnered with Ladders for Leaders, a nationally recognized program that offers high school and college students the opportunity to participate in paid professional summer internships.</p>
+                        
+                <p>If you have a minimum GPA of 3.0, are a resident of one of the five boroughs of NYC, are legally allowed to work in NYC and have prior work/internship/volunteer experience, you are eligible to apply to the Ladders for Leaders program. The program requires a separate application and admission does not affect your chances of being accepted to All Star Code. You must be accepted to both the All Star Code Summer Intensive and Ladders for Leaders in order to be compensated for your time.</p>
+                        
+                <p>Please apply at <a href="https://applicatin/nycsyep.com">https://applicatin/nycsyep.com</a> and choose Central Queens YM & YWHA - Queens as your provider, or use the PIN#230795.</p>
+                        
+                <p>If you have any questions, reach out to the Ladders for Leaders program contact: Albina Baazor, LMSW at <a href="L4L@cqy.org">L4L@cqy.org</a> or 718-268-5011 ext.111.</p>
+            </div>
+        </div>
 
-	<p class="question" id="q5"><b>Q:</b> What programming languages are taught?</p>
-	<p class="ans" id="a5"><b class="answer">A:</b> JavaScript, HTML, and CSS. Students may also learn addtional languages for their final projects.</p>
+        <div class="breaker"></div>
+        <!-- student projects -->
+        <div id="projects"></div>
+        <div class="parallax projects">
+            <div class="projects_container">
+                <header>
+                    <h2>STUDENT PROJECTS</h2>
+                    <!-- <a href="https://allstarcodeorg.github.io/asc4_demo_projects/" target="_blank" class="buttonize">2017 student projects</a> -->
+                </header>
+                <div class="all_projects">
+                    <div class="project">
+                        <h3>PROJECT SYNC</h3>
+                        <p class="desc">Our goal is to increase empathy within our community. Statistically, one in five Americans suffer from a mental or physical disability, but only fifty percent of teens show compassion towards them.</p>
+                        <div class="project_links">
+                            <a href="https://stephenasc4.github.io/projectsync/" target="_blank" class="buttonize">Project link</a>
+                            <a href="https://github.com/StephenASC4/projectsync" target="_blank" class="buttonize">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h3>TIC TAC BRO</h3>
+                        <p class="desc">A simple game of tic tac toe to play. You play as X and the computer plays as O. Start by choosing a square to play</p>
+                        <div class="project_links">
+                            <a href="http://rawgit.com/razaqASC4/Razaq/master/razaq-endgame/end.html" target="_blank" class="buttonize">Project link</a>
+                            <a href="https://github.com/razaqASC4/Razaq/tree/master/razaq-endgame" target="_blank" class="buttonize">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h3>123 HAMSTER</h3>
+                        <p class="desc">123 Hamster teaches kids new concepts at the click of a button! Students can use this app to improve their SAT scores.</p>
+                        <div class="project_links">
+                            <a href="https://rawgit.com/neilasc4/D3M0DAY/master/index.html" target="_blank" class="buttonize">Project link</a>
+                            <a href="https://github.com/NicholasGaviria/D3M0DAY" target="_blank" class="buttonize">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- container -->
+            </div>
+        </div>
 
-	<p class="question" id="q6"><b>Q:</b> I already know how to code. Am I eligible?</p>
-	<p class="ans" id="a6"><b class="answer">A:</b> Definitely. You will probably love the Summer Intensive even more if you have this kind of head start. You can talk to our Student Services Coordinator, <a href='mailto:cyril@allstarcode.org'>Cyril Kuhns</a>, if you have questions about specific skills.</p>
+        <div class="breaker"></div>
+        <!-- apply -->
+        <div class="apply">
+            <h2>APPLY</h2>
+            <!-- <p>Applications are now <span>OPEN</span> for the 2018 Summer Intensive.</p> -->
+            <!-- <a href="https://www.surveymonkey.com/r/ASCapply" target="_blank" class="buttonize">Apply now!</a> -->
+            <p>Applications for the 2018 Summer Intensive will open on January 3rd.</p>
+            
+        </div>
 
-	<p class="question" id="q7"><b>Q:</b> I'm not in high school yet, but I'm really interested in coding. Can I join the Summer Intensive?</p>
-	<p class="ans" id="a7"><b class="answer">A:</b> Our program is specifically designed for rising juniors and seniors in high school. We’d love to see you at non-SI events throughout the year and welcome your application when you are old enough!</p>
+        <hr>
+        <!-- faq -->
+        <div id="faq"></div>
+        <div class="faq">
+            <h2>FAQ</h2>
+            <div class="q_section">
+                <p class="question">
+                    <b>Q:</b> When is the Summer Intensive?</p>
+                <p class="ans">
+                    <b class="answer">A:</b> The 2018 Summer Intensive will take place weekdays from July 9th through August 17th, 9 AM to
+                    4 PM, with optional office hours from 4 PM to 5 PM.</p>
+            </div>
+            <div class="q_section">
+                <p class="question">
+                    <b>Q</b>: Where does the Summer Intensive take place?</p>
+                <p class="ans">
+                    <b class="answer">A:</b> All Stars are placed in a cohort of 20 boys at a real tech company in Manhattan. This year we
+                    are happy to announce that All Star Code will also serve the students of Pittsburgh, and will partner
+                    with a tech company there to host our first cohort outside of NYC. Our past host sites include Microsoft,
+                    Google, and Goldman Sachs. You’ll also get to venture outside of the office, with site visits to other
+                    companies, guest speakers, and fun team-building activities with other cohorts of All Stars.</p>
+            </div>
+            <div class="q_section">
+                <p class="question">
+                    <b>Q:</b> Is it really free?</p>
+                <p class="ans">
+                    <b class="answer">A:</b> Yes. It’s totally free, including transportation and meals during the program. Students will
+                    be given a free Metrocard (New York City), PATH card (New Jersery), or ConnectCard (Pittsburgh) for travel to and from
+                    the program! Details for this program will be shared after acceptance.</p>
+            </div>
+            <div class="q_section">
+                <p class="question">
+                    <b>Q:</b> Is there a GPA requirement?</p>
+                <p class="ans">
+                    <b class="answer">A:</b> No. Our All Stars shine in all sorts of ways, and grades are just one way to shine. GPA is NOT used in our selection process. We do collect GPA data for our statistics.</p>
+            </div>
+            <div class="q_section">
+                <p class="question">
+                    <b>Q:</b> What programming languages are taught?</p>
+                <p class="ans">
+                    <b class="answer">A:</b> JavaScript, HTML, and CSS. Students may also learn addtional languages for their final projects.</p>
+            </div>
+            <div class="q_section">
+                <p class="question" 
+                    <b>Q:</b> I already know how to code. Am I eligible?</p>
+                <p class="ans">
+                    <b class="answer">A:</b> Definitely. You will probably love the Summer Intensive even more if you have this kind of head
+                    start. Please send inquiries to <a href='mailto:admissions@allstarcode.org'>ASC Admissions</a>, if you have questions about specific skills.</p>
+            </div>
+            <div class="q_section">
+                <p class="question">
+                    <b>Q:</b> I'm not in high school yet, but I'm really interested in coding. Can I join the Summer Intensive?</p>
+                <p class="ans">
+                    <b class="answer">A:</b> Our program is specifically designed for rising juniors and seniors in high school. We’d love
+                    to see you at non-SI events throughout the year and welcome your application when you are old enough!</p>
+            </div>
+            <div class="q_section">
+                <p class="question">
+                    <b>Q:</b> When will I know if I was accepted into the program?</p>
+                <p class="ans">
+                    <b class="answer">A:</b> Once the application closes in March, there will be a selection period. All students who are accepted
+                    into the program will receive notifications on the same date in late March/early April.</p>
+            </div>
+            <div class="q_section">
+                <p class="question">
+                    <b>Q:</b> Will there be a waiting list?</p>
+                <p class="ans">
+                    <b class="answer">A:</b> Absolutely. Many students will qualify for the program but will not be selected in the first round.
+                    They will receive notification of the opportunity to join a waiting list, and will be invited to join
+                    as spots become available.</p>
+            </div>
+            <div class="q_section">
+                <p class="question">
+                    <b>Q:</b> You say that preference is given to Black and Latino students. I'm not Black or Latino; does that
+                    mean I'm not eligible?</p>
+                <p class="ans">
+                    <b class="answer">A:</b> Less than 1% of VC-backed startups has a Black or Latino founder on the team, and our programming
+                    is designed to inspire All Stars to change that. We want to give priority to the students most directly
+                    affected by this stark opportunity gap, who in this case, self-identify as Black and/or Latino. We have
+                    always welcomed students of other identities in our program, so we encourage you to apply, but priority
+                    will be given to qualified Black and/or Latino students.</p>
+            </div>
+        </div>
+        <!-- contact -->
+        <hr>
+        <div id="contact"></div>
+        <div class="contact">
+            <h2>CONTACT</h2>
+            <p class="social">
+                <a href="mailto:recruitment@allstarcode.org">recruitment@allstarcode.org</a>
+            </p>
+            <p class="socials">
+                <a target="_blank" href="http://facebook.com/allstarcode"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://twitter.com/allstarcode"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+                <a target="_blank" href="http://instagram.com/allstarcode"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                <!-- <a target="_blank" href="https://www.youtube.com/watch?v=AnDmxENBlOE"><i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i></a> -->
+                <a target="_blank" href="https://www.linkedin.com/company/5046827?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A5046827%2Cidx%3A2-1-2%2CtarId%3A1464816284640%2Ctas%3Aall%20star%20code"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+            </p>
+        </div>
+    </div>
 
-	<p class="question" id="q8"><b>Q:</b> When will I know if I was accepted into the program?</p>
-	<p class="ans" id="a8"><b class="answer">A:</b> Once the application closes in March, there will be a selection period. All students who are accepted into the program will receive notifications on the same date in late March/early April.</p>
 
-	<p class="question" id="q9"><b>Q:</b> Will there be a waiting list?</p>
-	<p class="ans" id="a9"><b class="answer">A:</b> Absolutely. Many students will qualify for the program but will not be selected in the first round. They will receive notification of the opportunity to join a waiting list, and will be invited to join as spots become available.</p>
+    <!-- LOADING SCRIPTS -->
 
-	<p class="question" id="q10"><b>Q:</b> You say that preference is given to Black and Latino students. I'm not Black or Latino; does that mean I'm not eligible?</p>
-	<p class="ans" id="a10"><b class="answer">A:</b> Less than 1% of VC-backed startups has a Black or Latino founder on the team, and our programming is designed to inspire All Stars to change that. We want to give priority to the students most directly affected by this stark opportunity gap, who in this case, self-identify as Black and/or Latino. We have always welcomed students of other identities in our program, so we encourage you to apply, but priority will be given to qualified Black and/or Latino students.</p>
+    <!-- jquery -->
+    <script src="lib/js/jquery-2.2.4.min.js"></script>
+    <!-- bootstrap -->
+    <script src="lib/js/bootstrap.js"></script>
 
-	<div class="bar center"></div>
-	
-	<h2 id="contact">CONTACT</h2>
-	<p class="social"><a href="http://www.allstarcode.org">AllStarCode.org</a> </p>
-	<p class="social"><a href="http://facebook.com/allstarcode"><img src="assets/fb.png"></a> <a href="https://twitter.com/allstarcode"><img src="assets/tw.png"></a> <a href="http://instagram.com/allstarcode"><img src="assets/ig.png"></a> <a href="https://www.youtube.com/watch?v=AnDmxENBlOE"><img src="assets/yt.png"></a> <a href="https://www.linkedin.com/company/5046827?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A5046827%2Cidx%3A2-1-2%2CtarId%3A1464816284640%2Ctas%3Aall%20star%20code"><img src="assets/in.png"></a></p>
-	
-	<div class="buff"></div>
-	
-	
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	
-	<!-- my JS -->
-	<script type="text/javascript">
-		// The function actually applying the offset
-		function offsetAnchor() {
-			if(location.hash.length !== 0) {
-				window.scrollTo(window.scrollX, window.scrollY - 50);
-			}
-		}
-		// This will capture hash changes while on the page
-		window.addEventListener("hashchange", offsetAnchor);
-		// This is here so that when you enter the page with a hash,
-		// it can provide the offset in that case too. Having a timeout
-		// seems necessary to allow the browser to jump to the anchor first.
-		window.setTimeout(offsetAnchor, 1)
-		
-		$("#q1").click(function(){
-			$("#a1").slideToggle("fast");
-		});
-		
-		$("#q2").click(function(){
-			$("#a2").slideToggle("fast");
-		});
-		
-		$("#q3").click(function(){
-			$("#a3").slideToggle("fast");
-		});
-		
-		$("#q4").click(function(){
-			$("#a4").slideToggle("fast");
-		});
-		
-		$("#q5").click(function(){
-			$("#a5").slideToggle("fast");
-		});
-		
-		$("#q6").click(function(){
-			$("#a6").slideToggle("fast");
-		});
-		
-		$("#q7").click(function(){
-			$("#a7").slideToggle("fast");
-		});
-		
-		$("#q8").click(function(){
-			$("#a8").slideToggle("fast");
-		});
-		
-		$("#q9").click(function(){
-			$("#a9").slideToggle("fast");
-		});
-		
-		$("#q10").click(function(){
-			$("#a10").slideToggle("fast");
-		});
-	</script>
+    <!-- wow -->
+    <!-- <script src="lib/js/wow.min.js"></script>
+    <script>
+    new WOW({
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       false,       // default
+                      live:         true        // default
+                    }).init();
+    </script>
+     -->
+    <!-- custom -->
+    <script src="lib/js/main.js"></script>
+</body>
 
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-90303243-1', 'auto');
-	  ga('send', 'pageview');
-	</script>
-
-  </body>
 </html>
