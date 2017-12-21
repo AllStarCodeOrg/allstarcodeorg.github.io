@@ -255,6 +255,12 @@ a:focus {
     font-size: 1.5em;
 }
 
+
+.l4l p{
+    width: 85%;
+    margin: 10px auto 0 auto;
+}
+
 .social {
     text-align: center;
 }

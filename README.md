@@ -11,4 +11,4 @@ To Do List
     *When projects website is completed, include link
     *Cutting YouTube for now (until new video up)
     *Make sure you're ready to link these apply buttons to the survey monkey after @ankita makes the transfer
-    Add "New York, New Jersery, Pittsburgh" (around Apply button)
+    *Add "Ladders 4 Leaders" link for students to fill out
