@@ -32,7 +32,6 @@
 </head>
 
 <body>
-
     <!-- Navbar -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
@@ -121,6 +120,7 @@
                 </a>
                 <h4  id='pulse'>APPLY</h4>
             </div>
+            <!-- <h6 id="warning">Note: on submission, some users have reported a continuous spinning circle. Ignore this! Your application HAS been recieved.</h6> -->
             <a href="https://www.surveymonkey.com/r/ASCapply"
                 target="_blank" id="hanging_apply" class="buttonize">APPLY</a>
             <div class="cities">
@@ -450,6 +450,14 @@
     gtag('config', 'UA-112581552-1');
     </script>
 
+    <!-- popup box warning -->
+    <script src="http://www.jacklmoore.com/colorbox/jquery.colorbox.js"></script>
+    <script>
+            $(document).ready(function(){
+                $.colorbox({width: 300, height: 180 ,html:"<p>NOTE: Applicants have reported seeing a rotating circle after submitting. If this occurs, we DID receive your application.</p>"});
+            })
+    
+      </script>
 </body>
 
 </html>

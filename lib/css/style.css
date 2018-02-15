@@ -411,6 +411,20 @@ hr {
     background-color: #51C1E9;
 }
 
+#cboxContent{
+    font-size: 20px;
+    color:#51C1E9;
+    text-align: center;
+    background: #FFDD00;
+    border-radius: 15px;
+    border: solid black 2px;
+}
+
+#cboxContent p{
+    padding: 15px;
+    margin:0;
+}
+
 .navbar-header img {
     height: 42px;
     margin-top: 12px;
