@@ -41,6 +41,11 @@
     justify-content: center;
 }
 
+.apply span{
+    color: #51C1E9;
+    font-weight: bold;
+    font-size: 1.25em;
+}
 
 .top h1 {
     font-size: 5em;
