@@ -358,6 +358,10 @@ a:focus {
     padding: 10px 20px;
     font-size: 3em;
 }
+.apply .big_button_apply{
+    font-size: .4em;
+    display: block;
+}
 
 .faq {
     width: 75%;
@@ -931,4 +935,8 @@ ul.navbar-right li:not(:first-child):hover {
 #donate:hover,.apply a:hover, #hanging_apply:hover{
     background-color: rgb(81, 193, 233);
     color: black;
+}
+
+.apply a:hover .big_button_apply{
+    color: white;
 }
