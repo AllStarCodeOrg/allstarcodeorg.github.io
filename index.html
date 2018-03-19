@@ -455,13 +455,15 @@
     </script>
 
     <!-- popup box warning -->
-    <!-- <script src="lib/js/jquery.colorbox.js"></script>
+    <script src="lib/js/jquery.colorbox.js"></script>
     <script>
             $(document).ready(function(){
-                $.colorbox({width: 300, height: 180 ,html:"<p>NOTE: Applicants have reported seeing a rotating circle after submitting. If this occurs, we DID receive your application.</p>"});
+                // let text = "NOTE: Applicants have reported seeing a rotating circle after submitting. If this occurs, we DID receive your application.";
+                let text = "NYC applications are closed. The PGH deadline has been extended to Apr. 9th.";
+                $.colorbox({width: 300, height: 150 ,html:`<p>${text}</p>`});
             })
     
-      </script> -->
+      </script>
 </body>
 
 </html>
