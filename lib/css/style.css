@@ -126,9 +126,9 @@ a:focus {
     pointer-events: none;
 }
 
-.star img:hover {
+/* .star img:hover {
     filter: drop-shadow(5px 5px 5px #222);
-}
+} */
 
 .buttonize, .skills>p, .stat {
     background: #51C1E9;
